@@ -2,11 +2,11 @@ package com.company.todoapp.services.repository;
 
 import com.company.todoapp.models.Todo;
 import com.company.todoapp.services.ITodoService;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
 
 public class TodoStaticService implements ITodoService {
 

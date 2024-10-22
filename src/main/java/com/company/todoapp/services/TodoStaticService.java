@@ -1,13 +1,13 @@
-package com.company.todoapp.services.repository;
+package com.company.todoapp.services;
 
 import com.company.todoapp.models.Todo;
-import com.company.todoapp.services.ITodoService;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+@Service
 public class TodoStaticService implements ITodoService {
 
   // static data data store
